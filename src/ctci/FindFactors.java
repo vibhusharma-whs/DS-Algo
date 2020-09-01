@@ -1,4 +1,4 @@
-package Algorithms;
+package ctci;
 
 import java.util.ArrayList;
 import java.util.List;
