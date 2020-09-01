@@ -1,4 +1,4 @@
-package ctci;
+package chapter1;
 
 public class ReplaceSpace {
 

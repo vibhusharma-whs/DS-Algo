@@ -1,4 +1,4 @@
-package ctci;
+package chapter1;
 
 import java.util.HashSet;
 import java.util.Set;
