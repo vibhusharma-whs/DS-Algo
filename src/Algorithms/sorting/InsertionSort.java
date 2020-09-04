@@ -4,7 +4,10 @@ class InsertionSort {
 	
 	public static void main(String[] args) {
 		
-		int a[] = {36,19,29,12,5};
+		int a[] = {2,4,1,6,8,5,3,7};
+		long start = System.nanoTime();
+		// some time passes
+		
 		
 		for (int i = 1;i<a.length;i++) {
 			
@@ -20,7 +23,9 @@ class InsertionSort {
 			
 			a[j+1] = temp;
 		}
-		
+		long end = System.nanoTime();;
+		long elapsedTime = end - start;
+		System.out.println(elapsedTime);
 		for (int i = 0; i<a.length; i++) {
 			System.out.print(a[i]+" ");
 		
