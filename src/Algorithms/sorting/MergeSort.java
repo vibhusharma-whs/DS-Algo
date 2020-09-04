@@ -5,7 +5,7 @@ public class MergeSort {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] arr = {2,4,1,6,8,5,3,7};
-		long start = System.nanoTime();
+		long start = System.nanoTime(); //calculation of time taken
 		MergeSort.sort(arr);
 		long end = System.nanoTime();
 		long elapsedTime = end - start;
