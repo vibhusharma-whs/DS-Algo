@@ -9,7 +9,7 @@ public class MergeSort {
 		MergeSort.sort(arr);
 		long end = System.nanoTime();
 		long elapsedTime = end - start;
-		System.out.println(elapsedTime);
+		System.out.println("Time taken by algo - "+elapsedTime+" nano seconds");
 		for(int i = 0;i<arr.length;i++) {
 			System.out.print(arr[i]+" ");
 		}
